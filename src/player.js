@@ -3,8 +3,10 @@ import Renderable from './renderable';
 import playerImg from './img/player.png'
 
 export default class Player extends GameObject {
-    constructor(x, y) {
+    constructor(engine, x, y) {
         super();
+
+        this.engine = engine
 
         this.position = [x, y]
 
@@ -24,16 +26,16 @@ export default class Player extends GameObject {
         ]
     }
 
-    update(engine, dt) {
-        super.update(engine, dt)
-        let collider = engine.getCollision(
-            this.position[0] + this.renderables[0].subWidth / 2, 
-            this.position[1] + this.renderables[0].subHeight)
+    translate(x, y) {
+        let collider = this.engine.getCollision(
+            this.position[0] + x + this.renderables[0].subWidth /2,
+            this.position[1] + y + this.renderables[1].subHeight -10)
 
-        if(collider !== false) {
-            this.position[0] = this.lastPosition[0]
-            this.position[1] = this.lastPosition[1]
-        }
+            if(collider !== false) {
+                x = 0
+                y = 0
+            }
+        super.translate(x, y)
     }
 
     draw(ctx) {

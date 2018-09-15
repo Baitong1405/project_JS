@@ -13,7 +13,7 @@ let map = new Map(testmap, mapTiles)
 engine.addObject(map)
 engine.addColliders(map.getColliders())
 
-let player = new Player(50, 200);
+let player = new Player(engine, 50, 200);
 
 engine.addObject(player)
 
