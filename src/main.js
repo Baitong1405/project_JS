@@ -2,14 +2,14 @@ import Engine from "./engine"
 import Player from './player'
 import Map from "./map";
 
-import testmap from './maps/testmap.json'
+import map_1_3 from './maps/map_1_3.json'
 import mapTiles from './img/tile_1_3.png'
 
 let engine = new Engine();
 
-engine.phy = true
+//engine.phy = true
 
-let map = new Map(testmap, mapTiles)
+let map = new Map(map_1_3, mapTiles)
 engine.addObject(map)
 engine.addColliders(map.getColliders())
 
@@ -18,22 +18,27 @@ let player = new Player(engine, 50, 200);
 engine.addObject(player)
 
 engine.update = (dt) => {
+    let walkSpeed = 100
+
+    if(engine.input.isKeyDown("ShiftLeft")) {
+        walkSpeed = 300
+    }
     
     // Walk
     if(engine.input.isKeyDown("KeyW")) {
-        player.translate(0, -100 * dt)
+        player.translate(0, -walkSpeed * dt)
         player.facing = 1
     }
     if(engine.input.isKeyDown("KeyS")) {
-        player.translate(0, 100 * dt)
+        player.translate(0, walkSpeed * dt)
         player.facing = 2
     }
     if(engine.input.isKeyDown("KeyA")) {
-    player.translate(-100 * dt, 0)
+    player.translate(-walkSpeed * dt, 0)
     player.facing = 3
     }
     if(engine.input.isKeyDown("KeyD")) {
-    player.translate(100 * dt, 0)
+    player.translate(walkSpeed * dt, 0)
     player.facing = 4
     }
 

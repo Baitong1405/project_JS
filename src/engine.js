@@ -6,9 +6,16 @@ export default class Engine {
     constructor() {
         document.body.style.margin = "0px";
         document.body.style.overflow = "hidden";
+        document.body.style.backgroundColor = "#231F20"
         this.canvas = document.createElement("canvas");
-        this.canvas.width = window.innerWidth;
-        this.canvas.height = window.innerHeight;
+        //this.canvas.width = window.innerWidth;
+        //this.canvas.height = window.innerHeight;
+        this.canvas.width = 768
+        this.canvas.height = 448
+        this.canvas.style.display = "block"
+        this.canvas.style.marginLeft = "auto"
+        this.canvas.style.marginRight = "auto"
+        this.canvas.style.marginTop = "15vh"
         document.body.appendChild(this.canvas);
 
         this.phy = false
@@ -69,7 +76,7 @@ export default class Engine {
          });
         
 
-        this.ctx.fillStyle = "#303030";
+        this.ctx.fillStyle = "#231F20";
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
         // Draw

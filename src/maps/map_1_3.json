@@ -13,94 +13,7 @@
          "y":0
         }, 
         {
-         "draworder":"topdown",
-         "name":"Object Layer 1",
-         "objects":[
-                {
-                 "height":192,
-                 "id":1,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1,
-                 "y":0
-                }, 
-                {
-                 "height":128,
-                 "id":3,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":1,
-                 "y":319
-                }, 
-                {
-                 "height":64,
-                 "id":4,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":192,
-                 "y":384
-                }, 
-                {
-                 "height":95,
-                 "id":5,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":62,
-                 "x":578,
-                 "y":351
-                }, 
-                {
-                 "height":94,
-                 "id":6,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":709,
-                 "x":58,
-                 "y":0
-                }, 
-                {
-                 "height":34,
-                 "id":15,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":767,
-                 "x":1,
-                 "y":446
-                }, 
-                {
-                 "height":479,
-                 "id":16,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":54,
-                 "x":764,
-                 "y":-2
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "data":[0, 0, 0, 11, 0, 0, 27, 0, 0, 11, 0, 0, 0, 12, 28, 12, 30, 12, 12, 12, 32, 12, 34, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 38, 39, 40, 41, 42, 42, 43, 0, 0, 0, 15, 0, 47, 48, 49, 50, 51, 51, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 18, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 12, 28, 12, 30, 12, 12, 12, 32, 12, 34, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 38, 39, 40, 41, 42, 42, 43, 0, 0, 0, 15, 0, 47, 48, 49, 50, 51, 51, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 18, 0, 0],
          "height":7,
          "name":"Tile Layer 2",
          "opacity":1,
@@ -109,8 +22,106 @@
          "width":12,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "height":128,
+                 "id":2,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":73.3333333333333,
+                 "x":-1,
+                 "y":319
+                }, 
+                {
+                 "height":192,
+                 "id":3,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":70.6666666666667,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "height":97,
+                 "id":4,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":707,
+                 "x":61,
+                 "y":0
+                }, 
+                {
+                 "height":64,
+                 "id":5,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":194,
+                 "y":382
+                }, 
+                {
+                 "height":96,
+                 "id":6,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":68.6667,
+                 "x":576,
+                 "y":351
+                }, 
+                {
+                 "height":22.6666666666667,
+                 "id":7,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":786.667,
+                 "x":-8,
+                 "y":440.000333333333
+                }, 
+                {
+                 "height":468,
+                 "id":8,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":37.3333333333334,
+                 "x":758.666666666667,
+                 "y":-2.66667
+                }, 
+                {
+                 "height":190.667,
+                 "id":9,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":-42.6667,
+                 "y":158.667
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextobjectid":17,
+ "nextobjectid":10,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.6",
@@ -118,7 +129,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/img\/level\/sprite v2.tsx"
+         "source":"tile_1_3.tsx"
         }],
  "tilewidth":64,
  "type":"map",
