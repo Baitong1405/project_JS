@@ -18,10 +18,12 @@ let player = new Player(engine, 50, 200);
 engine.addObject(player)
 
 engine.update = (dt) => {
-    let walkSpeed = 100
+    let walkSpeed = 150
 
-    if(engine.input.isKeyDown("ShiftLeft")) {
-        walkSpeed = 300
+
+    // Run
+    if(engine.input.isKeyDown("ShiftLeft") || engine.input.isKeyDown("ShiftRight")) {
+        walkSpeed = 350
     }
     
     // Walk
@@ -55,6 +57,18 @@ engine.update = (dt) => {
     }
     if(!engine.input.isKeyDown("KeyD") && player.facing == 4) {
         player.facing = 7
+    }
+
+    if(
+        player.position[0] > 350 &&
+        player.position[0] < 450 &&
+        player.position[1] > 50 &&
+        player.position[1] < 100 ) {
+
+            document.getElementById('showQuest').style.display = 'block';
+        }
+    else {
+            document.getElementById('showQuest').style.display = 'none'
     }
 
 }
