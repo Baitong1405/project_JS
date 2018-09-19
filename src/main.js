@@ -7,9 +7,24 @@ import mapTiles from './img/tile_1_3.png'
 
 let engine = new Engine();
 
+let mapNumber = 1;
+let hp = 3
+let mapJ
+let ans1 =false
+let ans2 = true
+let ans3 = false
+let ans4 = false
+
+if(mapNumber == 1) {
+    mapJ = map_1_3
+}
+else if (mapNumber > 1 && mapNumber < 2){
+    mapJ = map_2
+}
+
 //engine.phy = true
 
-let map = new Map(map_1_3, mapTiles)
+let map = new Map(mapJ, mapTiles)
 engine.addObject(map)
 engine.addColliders(map.getColliders())
 
@@ -59,6 +74,7 @@ engine.update = (dt) => {
         player.facing = 7
     }
 
+    //show question
     if(
         player.position[0] > 350 &&
         player.position[0] < 450 &&
@@ -70,5 +86,97 @@ engine.update = (dt) => {
     else {
             document.getElementById('showQuest').style.display = 'none'
     }
+
+    //door1
+    if(
+        player.position[0] > 100 &&
+        player.position[0] < 177 &&
+        player.position[1] > 50 &&
+        player.position[1] < 100 &&
+        engine.input.isKeyDown("Enter")) {
+
+            if(ans1) {
+                mapNumber += 0.15
+                if(hp < 3) {
+                    hp += 0.15
+                }
+            }
+            else {
+                hp -= 0.15
+            }
+            console.log(`MAP = ${mapNumber}`)
+            console.log(`hp = ${hp}`)
+            console.log("======================")
+
+        }
+
+    //door2
+     if(
+        player.position[0] > 235 &&
+        player.position[0] < 310 &&
+        player.position[1] > 50 &&
+        player.position[1] < 100 &&
+        engine.input.isKeyDown("Enter")) {
+
+            if(ans2) {
+                mapNumber += 0.15
+                if(hp < 3) {
+                    hp += 0.15
+                }
+            }
+            else {
+                hp -= 0.15
+            }
+            console.log(`MAP = ${mapNumber}`)
+            console.log(`HP = ${hp}`)
+            console.log("=====================")
+        }
+
+    //door3
+    if(
+        player.position[0] > 490 &&
+        player.position[0] < 560 &&
+        player.position[1] > 50 &&
+        player.position[1] < 100 &&
+        engine.input.isKeyDown("Enter")) {
+
+            if(ans2) {
+                mapNumber += 0.15
+                if(hp < 3) {
+                    hp += 0.15
+                }
+            }
+            else {
+                hp -= 0.15
+            }
+            console.log(`MAP = ${mapNumber}`)
+            console.log(`HP = ${hp}`)
+            console.log("=====================")
+        }
+
+        //door4
+     if(
+        player.position[0] > 630 &&
+        player.position[0] < 700 &&
+        player.position[1] > 50 &&
+        player.position[1] < 100 &&
+        engine.input.isKeyDown("Enter")) {
+
+            if(ans2) {
+                mapNumber += 0.15
+                if(hp < 3) {
+                    hp += 0.15
+                }
+            }
+            else {
+                hp -= 0.15
+            }
+            console.log(`MAP = ${mapNumber}`)
+            console.log(`HP = ${hp}`)
+            console.log("=====================")
+        }
+    
+
+    
 
 }
