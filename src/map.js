@@ -6,7 +6,7 @@ export default class Map extends GameObject {
     constructor(mapJson, mapImg) {
         super();
 
-        this.renderable = new Renderable(mapImg, 0, 54, 9, 6, 1)
+        this.renderable = new Renderable(mapImg, 0, 540, 9, 60, 1)
         this.data = mapJson
 
         this.colliders = []

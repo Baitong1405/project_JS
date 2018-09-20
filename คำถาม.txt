@@ -1,0 +1,152 @@
+﻿1. ภาษา HTML มีความหมายตรงกับข้อใด
+o เป็นภาษาที่อธิบายถึงรายละเอียดของโครงสร้างและแบบของข้อมูล
+o ภาษาโปรแกรมเชิงวัตถุ
+o เป็นภาษาพื้นฐานของการพัฒนาเว็บไซต์โดยเฉพาะ T
+o เป็นภาษาที่ให้การชัดเจนในการแสดงรายละเอียดเกี่ยวกับข้อมูล
+
+2. ข้อใดกล่าวไม่ถูกต้อง
+o คำสั่งใน HTML เรียกว่า Tag
+o Tag แบ่งออกเป็น Tag เดี่ยว และ Tag คู่
+o Tag จะเขียนอยู่ในเครื่องหมาย < > หรือ [ ] ก็ได้ T
+o ที่กล่าวมาถูกทุกข้อ
+
+3. ข้อใดใช้ Attribute ไม่ถูกต้อง
+o <tag attributename=”value”>
+o <tag attributename=”value”> </tag attributename> T
+o <tag attributename=”value” attribute2=”value”>
+o <tag attributename=”value”> Content </tag>
+
+4. ข้อใดประกาศชนิดของเอกสาร HTML5 ได้ถูกต้อง
+o <!DOCTYPE html> T
+o <!DOCTYPE>
+o <!DOCTYPE html5>
+o ถูกทุกข้อ
+
+5. ส่วนใดที่ใช้ในการแสดงชื่อเรื่องของเว็บ
+o <html> </html>
+o <body> </body>
+o <title> </title> T
+o <head> </head>
+
+6. ส่วนใดที่ใช้ในการแสดงเนื้อหาของเว็บ
+o <html> </html>
+o <body> </body> T
+o <title> </title>
+o <head> </head>
+
+7. ข้อใดคือค าสั่งในการก าหนดโครงสร้างหลักของเอกสาร HTML
+o <html> </html>
+o <body> </body>
+o <title> </title>
+o ถูกทุกข้อ T
+
+8. ข้อใดไม่ใช่โปรแกรม Text Editor
+o Safari T
+o Notepad++
+o Notepad
+o Gedit
+
+9. ข้อใดไม่ใช่โปรแกรม Web Browser
+o Opera
+o Safari
+o Windows Explorer T
+o Internet Explorer
+
+10. ค าสั่งในภาษา HTML ต่อไปนี้ ข้อใดไม่ถูกต้อง
+o <!DOCTYPE html>
+o <html5>
+o <body>
+o <p> Hello World! <p> T
+
+11.ภาษา HTMLเป็นภาษาประเภทใด
+ก.Markup Lanuage T
+ข.Mark 1
+ค.Toblo colk
+ง.Bilyni
+
+12.นามสกุลของ HTMLคือ
+ก. .html T
+ข. co.th
+ค. ac.th
+ง. com
+
+13. รุ่นดั้งเดิมของHTML คือ
+ก. HTML LEVE 1 T
+ข. HTML 2.0
+ค. HTML 3.0
+ง. HTML 4.0
+
+14.HTMLรุ่นที่นิยมเขียนในปัจจุบันคือ
+ก. HTML 1
+ข. HTML 2.0
+ค. HTML 3.0
+ง. ผิดข้อ ก ข้อเดียว T
+
+15.ภาษาHTML สร้างได้จาก
+ก.ไฟล์รูปภาพ
+ข.ไฟล์เสียง
+ค.ไฟล์ข้อูล
+ง.ไฟล์ข้อความ T
+
+16. ระบบปฏิบัติการ Windowsเรียนใช้งานได้จาก
+ก. Ascll Code
+ข. Word Processing
+ค. Web Browser T
+ง. Text Editor
+
+17.ภาษา HTMLเป็นภาษาในการสร้างอะไร
+ก. Web Page T
+ข. Home Page
+ค. Internet
+ง. Text Editor
+
+18.ภาษา Markup Language เกิดขั้นจากการพัฒนาระบบ Woeld Wid Web เกิดขึ้นในช่วงเดือนใดปี คศ ใด
+ก. มกราคม 1989
+ข. มกราคม 1999
+ค. มีนาคม 1989 T
+ง. มีนาคม 1999
+
+19.นักวิจัยคนใดที่ได้นำแนวคิดเรื่อง Hypertext มาเพื่อกระจายข้อมูลในองค์กร
+ก. Tim Berners-Lee T
+ข. Lumtian Paoart
+ค. Wilai Jantip
+ง. Jonh son
+
+20.Tagเป็นลักษณะเฉพาะของภาษาHTMLใช้ในการระบุรูปแบบใด
+ก. รูปแบบข้อมูล
+ข. รูปแบบประมวล
+ค.รูปแบบคำสั่ง T
+ง. รูปแบบปฏิบัติการ
+
+21.Tagประกอบด้วยTag เปิดแลTag ปิดจะมีเครื่องหมายใดนำหน้าคำสั่ง
+ก. *
+ข. / T
+ค. -
+ง.+
+
+22. Atrtibutes คืออะไร
+ก. ส่วนขยาย T
+ข. ส่วยย่อ
+ค. ส่วนเปิด
+ง. ส่วนปิด
+
+23.Attributes เป็นส่วนขยายความสามารถของอะไร
+ก. Tag T
+ข. Tex
+ค. Eet
+ง. Bta
+
+24.Attributes ของTag จะใส่เครื่องหมายใด
+ก. <> T
+ข. //
+ค.( )
+ง.--
+
+25.Attributes ของ Tagใช้งานเกี่ยวกับอะไร
+ก. กราฟ
+ข.พารากราฟ T
+ค. แผนภูมิ
+ง. ทศนิยม
+
+
+
